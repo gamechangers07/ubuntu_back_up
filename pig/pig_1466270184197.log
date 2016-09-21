@@ -1,0 +1,710 @@
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias D
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias D
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias D
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias D
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias D
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias D
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias D
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias D
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:380)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias D
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias D
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias D
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias D
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias D
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias D
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: Pig script failed to parse: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+
+Failed to parse: Pig script failed to parse: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:199)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.parser.LogicalPlanBuilder.buildLoadOp(LogicalPlanBuilder.java:897)
+	at org.apache.pig.parser.LogicalPlanGenerator.load_clause(LogicalPlanGenerator.java:3568)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1625)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:191)
+	... 16 more
+Caused by: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.impl.PigContext.instantiateFuncFromSpec(PigContext.java:772)
+	at org.apache.pig.parser.LogicalPlanBuilder.buildLoadOp(LogicalPlanBuilder.java:885)
+	... 22 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.pig.impl.PigContext.instantiateFuncFromSpec(PigContext.java:740)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Delimeter must be a single character /t
+	at org.apache.pig.impl.util.StorageUtil.parseFieldDel(StorageUtil.java:83)
+	at org.apache.pig.builtin.PigStorage.<init>(PigStorage.java:210)
+	at org.apache.pig.builtin.PigStorage.<init>(PigStorage.java:192)
+	... 28 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: Pig script failed to parse: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+
+Failed to parse: Pig script failed to parse: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:199)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.parser.LogicalPlanBuilder.buildLoadOp(LogicalPlanBuilder.java:897)
+	at org.apache.pig.parser.LogicalPlanGenerator.load_clause(LogicalPlanGenerator.java:3568)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1625)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:191)
+	... 16 more
+Caused by: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.impl.PigContext.instantiateFuncFromSpec(PigContext.java:772)
+	at org.apache.pig.parser.LogicalPlanBuilder.buildLoadOp(LogicalPlanBuilder.java:885)
+	... 22 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.pig.impl.PigContext.instantiateFuncFromSpec(PigContext.java:740)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Delimeter must be a single character /t
+	at org.apache.pig.impl.util.StorageUtil.parseFieldDel(StorageUtil.java:83)
+	at org.apache.pig.builtin.PigStorage.<init>(PigStorage.java:210)
+	at org.apache.pig.builtin.PigStorage.<init>(PigStorage.java:192)
+	... 28 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: Pig script failed to parse: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+
+Failed to parse: Pig script failed to parse: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:199)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 16, column 4> pig script failed to validate: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.parser.LogicalPlanBuilder.buildLoadOp(LogicalPlanBuilder.java:897)
+	at org.apache.pig.parser.LogicalPlanGenerator.load_clause(LogicalPlanGenerator.java:3568)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1625)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:191)
+	... 16 more
+Caused by: java.lang.RuntimeException: could not instantiate 'PigStorage' with arguments '[/t]'
+	at org.apache.pig.impl.PigContext.instantiateFuncFromSpec(PigContext.java:772)
+	at org.apache.pig.parser.LogicalPlanBuilder.buildLoadOp(LogicalPlanBuilder.java:885)
+	... 22 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.pig.impl.PigContext.instantiateFuncFromSpec(PigContext.java:740)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Delimeter must be a single character /t
+	at org.apache.pig.impl.util.StorageUtil.parseFieldDel(StorageUtil.java:83)
+	at org.apache.pig.builtin.PigStorage.<init>(PigStorage.java:210)
+	at org.apache.pig.builtin.PigStorage.<init>(PigStorage.java:192)
+	... 28 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias D
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias D
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 28, column 31>  mismatched input 'A' expecting LEFT_PAREN
+
+Failed to parse: <line 28, column 31>  mismatched input 'A' expecting LEFT_PAREN
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:244)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:182)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 28, column 31>  mismatched input 'A' expecting LEFT_PAREN
+
+Failed to parse: <line 28, column 31>  mismatched input 'A' expecting LEFT_PAREN
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:244)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:182)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 28, column 31>  mismatched input 'B' expecting LEFT_PAREN
+
+Failed to parse: <line 28, column 31>  mismatched input 'B' expecting LEFT_PAREN
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:244)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:182)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 28, column 31>  mismatched input 'A' expecting LEFT_PAREN
+
+Failed to parse: <line 28, column 31>  mismatched input 'A' expecting LEFT_PAREN
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:244)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:182)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: Pig script failed to parse: 
+<line 29, column 32> Invalid scalar projection: B : A column needs to be projected from a relation for it to be used as a scalar
+
+Failed to parse: Pig script failed to parse: 
+<line 29, column 32> Invalid scalar projection: B : A column needs to be projected from a relation for it to be used as a scalar
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:199)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 29, column 32> Invalid scalar projection: B : A column needs to be projected from a relation for it to be used as a scalar
+	at org.apache.pig.parser.LogicalPlanGenerator.var_expr(LogicalPlanGenerator.java:10973)
+	at org.apache.pig.parser.LogicalPlanGenerator.expr(LogicalPlanGenerator.java:10190)
+	at org.apache.pig.parser.LogicalPlanGenerator.flatten_clause(LogicalPlanGenerator.java:7660)
+	at org.apache.pig.parser.LogicalPlanGenerator.flatten_generated_item(LogicalPlanGenerator.java:7483)
+	at org.apache.pig.parser.LogicalPlanGenerator.generate_clause(LogicalPlanGenerator.java:17621)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_plan(LogicalPlanGenerator.java:16013)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_clause(LogicalPlanGenerator.java:15880)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1933)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:191)
+	... 16 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias C
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias C
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1066: Unable to open iterator for alias C
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1066: Unable to open iterator for alias C
+	at org.apache.pig.PigServer.openIterator(PigServer.java:935)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:754)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:376)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: java.io.IOException: Job terminated with anomalous status FAILED
+	at org.apache.pig.PigServer.openIterator(PigServer.java:927)
+	... 13 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1107: Cannot merge join keys, incompatible types
+
+org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1060: 
+<line 45, column 4> Cannot resolve Join output schema
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.throwTypeCheckerException(TypeCheckingRelVisitor.java:142)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:715)
+	at org.apache.pig.newplan.logical.relational.LOJoin.accept(LOJoin.java:172)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.relational.LogicalPlan.validate(LogicalPlan.java:190)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1708)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1107: Cannot merge join keys, incompatible types
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.getAtomicJoinColType(TypeCheckingRelVisitor.java:775)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:661)
+	... 20 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: Pig script failed to parse: 
+<line 55, column 32> Invalid scalar projection: A : A column needs to be projected from a relation for it to be used as a scalar
+
+Failed to parse: Pig script failed to parse: 
+<line 55, column 32> Invalid scalar projection: A : A column needs to be projected from a relation for it to be used as a scalar
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:199)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1707)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 55, column 32> Invalid scalar projection: A : A column needs to be projected from a relation for it to be used as a scalar
+	at org.apache.pig.parser.LogicalPlanGenerator.var_expr(LogicalPlanGenerator.java:10973)
+	at org.apache.pig.parser.LogicalPlanGenerator.expr(LogicalPlanGenerator.java:10190)
+	at org.apache.pig.parser.LogicalPlanGenerator.real_arg(LogicalPlanGenerator.java:9643)
+	at org.apache.pig.parser.LogicalPlanGenerator.func_eval(LogicalPlanGenerator.java:9374)
+	at org.apache.pig.parser.LogicalPlanGenerator.projectable_expr(LogicalPlanGenerator.java:11082)
+	at org.apache.pig.parser.LogicalPlanGenerator.var_expr(LogicalPlanGenerator.java:10841)
+	at org.apache.pig.parser.LogicalPlanGenerator.expr(LogicalPlanGenerator.java:10190)
+	at org.apache.pig.parser.LogicalPlanGenerator.flatten_generated_item(LogicalPlanGenerator.java:7519)
+	at org.apache.pig.parser.LogicalPlanGenerator.generate_clause(LogicalPlanGenerator.java:17621)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_plan(LogicalPlanGenerator.java:16013)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_clause(LogicalPlanGenerator.java:15880)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1933)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:191)
+	... 16 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 58, column 33> Invalid field projection. Projected field [gpa] does not exist in schema: group:chararray,A:bag{:tuple(name:chararray,term:chararray,gpa:float)}.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 58, column 33> Invalid field projection. Projected field [gpa] does not exist in schema: group:chararray,A:bag{:tuple(name:chararray,term:chararray,gpa:float)}.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.relational.LogicalPlan.validate(LogicalPlan.java:175)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1708)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 61, column 23> Invalid field projection. Projected field [group] does not exist in schema: :bytearray.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 61, column 23> Invalid field projection. Projected field [group] does not exist in schema: :bytearray.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.relational.LogicalPlan.validate(LogicalPlan.java:175)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1708)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 61, column 23> Invalid field projection. Projected field [group] does not exist in schema: :bytearray.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 61, column 23> Invalid field projection. Projected field [group] does not exist in schema: :bytearray.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.relational.LogicalPlan.validate(LogicalPlan.java:175)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1708)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1680)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:623)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1082)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:505)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:565)
+	at org.apache.pig.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================

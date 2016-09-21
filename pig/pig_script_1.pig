@@ -1,0 +1,7 @@
+
+A = LOAD 'splitdata.txt' using PigStorage ('\t') as (logid:int,logerror:chararray,logdate:int);
+SPLIT A into FirstSplit if logid == 101010, SecondSplit if logid == 101110;
+STORE FirstSplit into 'FirstSp';
+STORE SecondSplit into 'SecondSp';
+
+

@@ -1,0 +1,7 @@
+101010	networkerror	2013-4-12
+101110	routererror	2012-05-14
+202010	swerror	2011-02-12
+101010	huberror	2001-02-12
+101010	staticiperror	2014-05-15
+101110	hubmainterror	2014-01-11
+202010	networkjoberror	2001-05-19

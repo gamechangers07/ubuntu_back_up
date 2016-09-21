@@ -1,0 +1,114 @@
+
+Reference
+http://blog.cloudera.com/blog/2009/08/hadoop-default-ports-quick-reference/
+http://doctuts.readthedocs.org/en/latest/hadoop.html
+
+To update ubuntu
+sudo apt-get update
+
+To download Open JDK
+	sudo apt-get install openjdk-6-jdk
+
+To download Hadoop
+-- wget to get from server directly
+	wget http://mirror.stjschools.org/public/apache/hadoop/common/hadoop-2.7.2/hadoop-2.7.2-src.tar.gz
+
+Untar the downloaded hadoop file
+	tar -xvf hadoop-2.7.2-src.tar.gz
+
+Add path in .bashrc (hidden files)
+
+export HADOOP_HOME=/usr/lib/hadoop-2.7.2
+export HADOOP_CONF=/usr/lib/hadoop-2.7.2/etc/hadoop
+export HADOOP_MAPRED_HOME=/usr/lib/hadoop-2.7.2
+export HADOOP_COMMON_HOME=/usr/lib/hadoop-2.7.2
+export HADOOP_HDFS_HOME=/usr/lib/hadoop-2.7.2
+export YARN_HOME=/usr/lib/hadoop-2.7.2
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64
+export PATH=$PATH:$HADOOP_HOME/bin
+
+Modify the below files in /usr/lib/hadoop-2.7.2/etc/hadoop/
+
+1) Update Java path in hadoop-env.sh
+# The java implementation to use.
+#export JAVA_HOME=${JAVA_HOME}
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64
+
+2) Updated HDFS (fs.default.name) filessystem (localhost:9000 the core-site.xml
+<configuration>
+	<property>
+		<name>fs.default.name</name>
+		<value>hdfs://localhost:9000</value>
+	</property>
+</configuration>
+
+3) Update hdfs-site.xml
+<configuration>
+	<property>
+		<name>dfs.replication</name>
+		<value>1</value>
+	</property>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>/var/lib/hadoop-hdfs/dfs/namenode</value>
+	</property>
+	<property>
+		<name>dfs.datanode.name.dir</name>
+		<value>/var/lib/hadoop-hdfs/dfs/datanode</value>
+	</property>
+</configuration>
+
+4) Update mapred-site.xml
+<configuration>
+	<property>
+		<name>mapreduce.framework.name</name>
+		<value>yarn</value>
+	</property>
+</configuration>
+
+5) Update yarn-site.xml
+<configuration>
+<!-- Site specific YARN configuration properties -->
+	<property>
+		 <name>yarn.nodemanager.aux-services</name>
+		 <value>mapreduce_shuffle</value>
+	</property>
+	<property>
+		 <name>yarn.nodemanager.aux-service.mapreduce.shuffle.class</name>
+		 <value>org.apache.hadoop.mapred.shuffleHandler</value>
+	</property>
+</configuration>
+
+
+ Create the directory for namenode & datanode
+	/var/lib/hadoop-hdfs/dfs/namenode
+	/var/lib/hadoop-hdfs/dfs/datenode
+
+Configure SSH
+The hadoop control scripts rely on SSH to peform cluster-wide operations. For example, there is a script for stopping and starting all the daemons in the clusters. To work seamlessly, SSh needs to be etup to allow password-less login for the hadoop user from machines in the cluster. The simplest ay to achive this is to generate a public/private key pair, and it will be shared across the cluster.
+
+Hadoop requires SSH access to manage its nodes, i.e. remote machines plus your local machine. For our single-node setup of Hadoop, we therefore need to configure SSH access to localhost for the hduser user we created in the earlier.	
+Command is
+ssh-keygen -t rsa -P ""
+
+P “”, here indicates an empty password
+
+You have to enable SSH access to your local machine with this newly created key which is done by the following command.
+
+
+
+Formatting the HDFS filesystem via the NameNode
+
+To format the filesystem (which simply initializes the directory specified by the dfs.name.dir variable). Run the command
+	/usr/lib/hadoop-2.7.2/bin/hadoop namenode –format
+  if you see permission issue then change permission using chmod command
+
+
+Now start the daemons under sbin directory
+./hadoop-daemon.sh start namenode
+./hadoop-daemon.sh start datanode
+./yarn-daemon.sh start resourcemanager
+./yarn-daemon.sh start nodemanager
+./mr-jobhistory-daemon.sh start historyserver
+
+
