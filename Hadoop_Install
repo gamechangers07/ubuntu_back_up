@@ -8,6 +8,8 @@ sudo apt-get update
 
 To download Open JDK
 	sudo apt-get install openjdk-6-jdk
+To install Latest Java
+https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get
 
 To download Hadoop
 -- wget to get from server directly
