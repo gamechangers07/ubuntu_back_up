@@ -10,6 +10,11 @@ To download Open JDK
 	sudo apt-get install openjdk-6-jdk
 To install Latest Java
 https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get
+http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/
+
+To install particular version of java.
+First download tar file.... and then do as below..
+https://docs.datastax.com/en/cassandra/2.1/cassandra/install/installJdkDeb.html
 
 To download Hadoop
 -- wget to get from server directly
